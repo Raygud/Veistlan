@@ -1,0 +1,32 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(64, 64, 64);
+    color: white;
+    padding: 0vw 0vw 1vw 0vw;
+    width: 100%;
+    font-size: 7vw;
+    height: 10vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+
+        li {
+            line-height: 10vw;
+        }
+
+        h1 {
+            font-size: 5vw;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    font-size: 15vw;
+    margin-bottom: 5vw;
+}
+
+#ToTop {
+    position: fixed;
+    bottom: 15vw;
+    right: 5vw;
+    width: 15vw;
+    height: 15vw;
+
+    img {
+        width: 100%;
+    }
+}
+
+#SearchField {
+    display: flex;
+    justify-content: center;
+
+    input {
+        width: 80%;
+        height: 8vw;
+        font-size: 8vw;
+    }
+}
+
+#SongsContainer {
+    margin: 2vw;
+    margin-top: 10vw;
+    text-align: left;
+    margin-bottom: 8vw;
+    padding-bottom: 10vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.552);
+
+    h2 {
+        display: inline;
+        font-size: 10vw;
+
+        span {
+            float: right;
+        }
+    }
+
+    p {
+        font-size: 7vw;
+        line-height: 7vw;
+    }
+}
